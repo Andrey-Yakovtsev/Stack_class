@@ -40,15 +40,15 @@ class Stack:
         print('Количество элементов в стеке: ', len(Stack.stack))
         return len(Stack.stack)
 #
-# MySampleStack = Stack()
-# MySampleStack.isEmpty()
-#
-# MySampleStack = Stack(6, [1231, 23423, 234], 10, {2234: {2342: {234234: [12312, 41321, 1241]}}},15,-5)
-# MySampleStack.isEmpty()
-# MySampleStack.push(7, 15, {1000: {12312: [123, 123, 123]}})
-# MySampleStack.pop()
-# MySampleStack.peek()
-# MySampleStack.size()
+MySampleStack = Stack()
+MySampleStack.isEmpty()
+
+MySampleStack = Stack(6, [1231, 23423, 234], 10, {2234: {2342: {234234: [12312, 41321, 1241]}}},15,-5)
+MySampleStack.isEmpty()
+MySampleStack.push(7, 15, {1000: {12312: [123, 123, 123]}})
+MySampleStack.pop()
+MySampleStack.peek()
+MySampleStack.size()
 
 '''TASK 2'''
 

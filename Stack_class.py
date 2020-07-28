@@ -88,11 +88,10 @@ for symbol in string:
     if pairs[string[i]] == reversed_string[i]:
         # print(pairs[string[i]], '==> OK', i, reversed_string[i])
         i+=1
-        # continue
-        # print('Проверку на соответствие откр/закр скобок прошли')
     else:
         print('Проверку на соответствие откр/закр скобок НЕ прошли')
         break
+    print('Проверяю на соответствие откр/закр скобок')
 
 
 '''
